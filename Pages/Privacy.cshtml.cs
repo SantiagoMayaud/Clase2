@@ -20,7 +20,7 @@ public class PrivacyModel : PageModel
         var parametro = Request.Query["parametrox"];
         Data = new Form();
         Data.Mail = parametro;
-        Data.Password = "1234";
+        Data.Password = "12345";
     }
 
     public IActionResult OnPost(){ //Este código revisa que el pedido de información siga el modelo
